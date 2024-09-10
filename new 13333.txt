@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash - Book Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); // Prevent form submission
+            alert("Thank you, your appointment is booked!"); // Display a thank you message
+            document.getElementById("bookingForm").reset(); // Reset the form after submission
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appointments.html">Book Appointment</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="booking-form-container">
+        <h2>Book Your Car Wash Appointment</h2>
+        <form id="bookingForm" onsubmit="submitForm(event)">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Booking Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" placeholder="Enter any additional information..." rows="4"></textarea>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+        
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appointments.html">Book Appointment</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please contact us:</p>
+        <p><strong>Phone:</strong> +27 604836788</p>
+        <p><strong>Email:</strong> info@carwash.com</p>
+        <p><strong>Address:</strong> 123 carwash street, South Africa, 1818</p>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Car Wash!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    <section class="welcome-section">
+        <h2>Professional Car Wash Services</h2>
+        
+        <p>Your car deserves the best care. Book an appointment today and experience top-quality car wash and detailing services!</p>
+        <p>We offer you the best service ever</p>
+        
+
+        <img src="cartoon.jpg" alt="cartoon" width="400" height="200"><br>
+
+        <a href="appointments.html" class="btn">Book Now</a>
+    </section>
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <header>
+        <h1>Welcome to the Car Wash!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appointments.html">Book Appointment</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<body>
+
+    <section class="services-section">
+        <h2>Our Car Wash Services</h2>
+        <ul>
+            <li>Basic Car Wash</li>
+            <img src="car1.jpg" alt="car1">
+            <li>Full Car Detailing</li>
+            <img src="car2.jpg" alt="car2">
+            <li>Interior Vacuuming</li>
+            <img src="car3.jpg" alt="car3">
+
+            <li>Exterior Waxing</li>
+            <img src="car4.jpg" alt="car4">
+            <li>Engine Cleaning</li>
+            <img src="engine.jpg" alt="engine">
+            <li>Tire Shine</li>
+            <img src="shine.jpg" alt="shine">
+        </ul>
+    </section>
+
+</body>
+</html>
+mix it with javascript codes and add the payment show successful, login page show successful , add the copyright by Portia Rammela each page it should be on center in boarder with same background color like on top, for contact the email should display the link that it takes us to email straight, on service each picture should display the price of wash when you click

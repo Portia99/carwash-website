@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash - Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showPrice(price) {
+            alert("The price is: " + price);
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="carwash.html">Home</a></li>
+                <li><a href="appointments.html">Book Appointment</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Services List -->
+    <section class="services-section">
+        <h2>Our Car Wash Services</h2>
+        <ul>
+            <li>Basic Car Wash <br>
+                 <img src="car1.jpg" alt="Basic Car Wash" onclick="showPrice('R20')"></li>
+            <li>Full Car Detailing <br><img src="car2.jpg" alt="Full Car Detailing" onclick="showPrice('R50')"></li>
+            <li>Interior Vacuuming <br><img src="car3.jpg" alt="Interior Vacuuming" onclick="showPrice('R15')"></li>
+            <li>Exterior Waxing <br><img src="car4.jpg" alt="Exterior Waxing" onclick="showPrice('R30')"></li>
+            <li>Engine Cleaning <br> <img src="engine.jpg" alt="Engine Cleaning" onclick="showPrice('R40')"></li>
+            <li>Tire Shine <br><img src="shine.jpg" alt="Tire Shine" onclick="showPrice('R10')"></li>
+        </ul>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 by Portia Rammela
+    </footer>
+</body>
+</html>
